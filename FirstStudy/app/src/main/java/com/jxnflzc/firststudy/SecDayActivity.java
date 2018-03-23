@@ -7,7 +7,7 @@ import android.view.*;
 import android.widget.*;
 
 public class SecDayActivity extends AppCompatActivity {
-    private Button secstuBtnBroTes_1, secstuBtnBroTes_2;
+    private Button secBtnBroTes_1, secBtnBroTes_2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,10 +16,10 @@ public class SecDayActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sec_day);
         getSupportActionBar().hide();
 
-        secstuBtnBroTes_1 = (Button)findViewById(R.id.btn_broadcast_test_one);
-        secstuBtnBroTes_2 = (Button)findViewById(R.id.btn_broadcast_test_two);
+        secBtnBroTes_1 = (Button)findViewById(R.id.btn_broadcast_test_one);
+        secBtnBroTes_2 = (Button)findViewById(R.id.btn_broadcast_test_two);
 
-        secstuBtnBroTes_1.setOnClickListener(new View.OnClickListener(){
+        secBtnBroTes_1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent BroadTestOne = new Intent("MBC");
@@ -28,7 +28,7 @@ public class SecDayActivity extends AppCompatActivity {
             }
         });
 
-        secstuBtnBroTes_2.setOnClickListener(new View.OnClickListener(){
+        secBtnBroTes_2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent BroadTestTwo = new Intent("android.intent.action.VIEW");

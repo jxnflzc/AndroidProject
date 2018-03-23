@@ -1,18 +1,20 @@
 <resources>
     <string name="app_name">StudyApplication</string>
     <string name="version_title">版本信息</string>
-    <string name="version">Version:0.3.0\nUpdate time:2018/3/13\nOnly DEBUG version!</string>
+    <string name="version">Version:0.4.0\nUpdate time:2018/3/23\nOnly DEBUG version!</string>
     <string name="about_us_title">关于我们</string>
     <string name="about_us">E-mail:245186727@qq.com\nURL:120.78.141.62\nTel:132&#8211;7888&#8211;6806</string>
     <string name="app_info_title">软件介绍</string>
     <string name="app_info">Name:StudyApplication\nproducer:jxnflzc\nFunction:Just for STUDY Android!</string>
+    <string name="update_info_title">更新信息</string>
+    <string name="update_info">添加了&#34;第三天&#34;和&#34;更新信息&#34;。&#34;第三天&#34;带有&#34;数据存储&#34;功能和&#34;记住信息&#34;功能</string>
     <string name="btn_first_day">第一天</string>
     <string name="btn_second_day">第二天</string>
     <string name="btn_third_day">第三天</string>
     <string name="btn_forth_day">第四天</string>
     <string name="btn_broadcast_test_one">自定义广播</string>
     <string name="btn_broadcast_test_two">打开相机（失效）</string>
-    <string name="btn_sub_info">保存信息</string>
+    <string name="btn_sub_info">提交信息</string>
     <string name="broadcast_test_one">恭喜你，你已经收到自定义广播。</string>
     <string name="broadcast_test_two">恭喜你，你已经打开相机。</string>
     <string name="unknown">未知</string>
@@ -21,4 +23,7 @@
     <string name="list_view_test">ListView Test</string>
     <string name="wlan_turn_off">网络已关闭！</string>
     <string name="wlan_turn_on">网络已开启！</string>
+    <string name="user_name">名字</string>
+    <string name="user_age">年龄</string>
+    <string name="remner_info">记住信息</string>
 </resources>

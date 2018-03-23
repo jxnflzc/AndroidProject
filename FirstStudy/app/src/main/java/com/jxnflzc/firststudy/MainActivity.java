@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
-            case R.id.app_info_item:
+            case R.id.app_info_item:    //软件介绍
                 AlertDialog.Builder app_info_dialog = new AlertDialog.Builder(MainActivity.this);
                 app_info_dialog.setTitle(R.string.app_info_title);
                 app_info_dialog.setMessage(R.string.app_info);
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                 });
                 app_info_dialog.show();
                 break;
-            case R.id.version_item:
+            case R.id.version_item:    //版本信息
                 AlertDialog.Builder version_dialog = new AlertDialog.Builder(MainActivity.this);
                 version_dialog.setTitle(R.string.version_title);
                 version_dialog.setMessage(R.string.version);
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 });
                 version_dialog.show();
                 break;
-            case R.id.about_us_item:
+            case R.id.about_us_item:    //关于我们
                 AlertDialog.Builder about_us_dialog = new AlertDialog.Builder(MainActivity.this);
                 about_us_dialog.setTitle(R.string.about_us_title);
                 about_us_dialog.setMessage(R.string.about_us);
@@ -116,6 +116,18 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
                 about_us_dialog.show();
+                break;
+            case R.id.update_info_item:    //更新信息
+                AlertDialog.Builder update_info_dialog = new AlertDialog.Builder(MainActivity.this);
+                update_info_dialog.setTitle(R.string.update_info_title);
+                update_info_dialog.setMessage(R.string.update_info);
+                update_info_dialog.setCancelable(false);
+                update_info_dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                    }
+                });
+                update_info_dialog.show();
                 break;
             default:
         }

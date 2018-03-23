@@ -7,7 +7,7 @@ import android.view.*;
 import android.content.*;
 
 public class FirDayActivity extends AppCompatActivity {
-    private Button firstuToastLong, firstuToastShort, firstuListViewTest;
+    private Button firToastLong, firToastShort, firListViewTest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,23 +16,23 @@ public class FirDayActivity extends AppCompatActivity {
         setContentView(R.layout.activity_fir_day);
         getSupportActionBar().hide();
 
-        firstuToastLong = (Button)findViewById(R.id.btn_toast_long);
-        firstuToastShort = (Button)findViewById(R.id.btn_toast_short);
-        firstuListViewTest = (Button)findViewById(R.id.btn_list_view_test);
+        firToastLong = (Button)findViewById(R.id.btn_toast_long);
+        firToastShort = (Button)findViewById(R.id.btn_toast_short);
+        firListViewTest = (Button)findViewById(R.id.btn_list_view_test);
 
-        firstuToastLong.setOnClickListener(new View.OnClickListener() {        //ToastLong按钮点击效果
+        firToastLong.setOnClickListener(new View.OnClickListener() {        //ToastLong按钮点击效果
             @Override
             public void onClick(View v) {
                 Toast.makeText(FirDayActivity.this, "You click the LONG button!", Toast.LENGTH_LONG).show();
             }
         });
-        firstuToastShort.setOnClickListener(new View.OnClickListener() {        //ToastShort按钮点击效果
+        firToastShort.setOnClickListener(new View.OnClickListener() {        //ToastShort按钮点击效果
             @Override
             public void onClick(View v) {
                 Toast.makeText(FirDayActivity.this, "You click the SHORT button!", Toast.LENGTH_SHORT).show();
             }
         });
-        firstuListViewTest.setOnClickListener(new View.OnClickListener(){
+        firListViewTest.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent gotoListViewTestActivity = new Intent(FirDayActivity.this, ListViewTestActivity.class);//转到"ListView Test"界面
