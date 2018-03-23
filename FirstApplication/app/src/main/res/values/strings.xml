@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">小软件</string>
+    <string-array name="sex_list">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string name="sex">性别</string>
+    <string name="age">年龄</string>
+    <string name="spn_sex_list_promppt">请选择性别</string>
+    <string name="result">结果：</string>
+    <string name="sex_male">男</string>
+    <string name="sex_female">女</string>
+    <string name="sug_not_hurry">先别急！</string>
+    <string name="sug_get_married">赶快结婚！</string>
+    <string name="sug_find_couple">开始找对象！</string>
+    <string name="wrong">错误！</string>
+    <string name="sex_tip">（请输入年龄）</string>
+    <string name="info_try">试水作品，暂停更新</string>
+    <string name="info_email">245186727@qq.com</string>
+    <string name="info_com">国⑤院出品</string>
+    <string name="version">version 1.2</string>
+</resources>
